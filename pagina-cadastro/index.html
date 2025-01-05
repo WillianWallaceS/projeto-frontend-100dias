@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de cadastro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Realizar projeto de Front End durante 100 dias -->
-<h1>Cadastrar</h1>
+
+<form action="submit" method="post"> <!--Form cria um formulário-->
+    <h1>Cadastrar</h1><br>    <!-- Titulo principal -->
+    <label for="name"> Nome <label><br><!--Label para apelidar-->
+    <input type="text" id="name" name="name" required><br><!--Input para colocar o tipo o id -->
+
+    <label for="email">Email </label><br>
+    <input type="text" id="email" name="email" required><br><!--Required serve para obrigar o usuário a colocar o dado necessário para dar continuidade-->
+
+    <label for="senha">Senha </label><br>
+    <input type="password" id="senha" name="senha" required><br>
+
+    <button type="submit">CADASTRAR</button><!--Botão de enviar os dados do formulário de cadastro-->
+</form>
+
 
 
 
