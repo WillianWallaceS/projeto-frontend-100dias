@@ -34,9 +34,14 @@ button{
     
     margin-top:11px ;
     padding: 10px;
-    width: 100%;
+    width: 105%;
     color:white;
     border: none;
     background-color:#e94848;
     border-radius:10px;
+}
+.sublinhado{
+    
+    text-decoration: underline;
+    text-decoration-color:#e94848 ;
 }
